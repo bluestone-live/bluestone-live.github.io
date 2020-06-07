@@ -284,7 +284,7 @@ footer .logo-color {
   width: 179px;
   height: 24px;
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   right: 0;
 }
 
@@ -348,6 +348,8 @@ footer .logo-color {
   footer .logo-color {
     position: relative;
     margin-bottom: 36px;
+    bottom: none;
+    top: 20px;
   }
 
   footer > .container {
